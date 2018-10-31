@@ -12,13 +12,22 @@ shinyUI(
                                  )),
                         tabPanel(title='Appendix',
                                  fluidPage(
-                                   column(12, includeMarkdown('appe.md'))
+                                   column(12, includeMarkdown('Appe.md'))
                                  )),
                         tabPanel(title='Contact',
                                  fluidPage(
                                    column(12, includeMarkdown('contact.md'))
                                  ))
                         ),
+             tabPanel("Behaviors & Outcomes",
+                      fluidPage(
+                        fluidRow(
+                          column(6,h5("Click a correlation on the heatmap to view scatter plot."),
+                                 plotlyOutput("heat")),
+                          column(6,plotlyOutput("corrs"))
+                          )
+                        )
+                      ),    
              tabPanel("Unhealthy Behaviors and Outcomes By Year",
                       fluidPage(
                         sidebarLayout(
@@ -56,19 +65,7 @@ shinyUI(
                         ) 
                       )
                       ),
-             tabPanel("Behaviors & Outcomes",
-                      fluidPage(
-                            fluidRow(
-                              column(6,
-                                h5("Click a correlation on the heatmap to view scatter plot."),
-                                plotlyOutput("heat")),
-                              column(6,
-                              plotlyOutput("corrs"))
-                      )
-                            
-                          
-                                   )
-                 ),
+
             tabPanel(
               "Median Annual Income vs Health Factors",
               fluidPage(

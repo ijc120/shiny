@@ -2,18 +2,20 @@
 <img src="./banner.jpg" alt="Suni" class="center">
 </p>
 
-
+<p>
 <blockquote>
 <h3>
 Health is a state of complete physical, mental and social well-being and not merely the absence of disease or infirmity.</h3>
 <p>
-The extension to all peoples of the benefits of medical, psychological and related knowledge is essential to the fullest attainment of health. - Constitution of the World Health Organization </p>
+The extension to all peoples of the benefits of medical, psychological and related knowledge is essential to the fullest attainment of health. 
+- Constitution of the World Health Organization </p>
 </blockquote>
+</p>
 <p align="center"><img src=https://www.wellsteps.com/blog/wp-content/uploads/2016/08/Wellness-and-Behavior-Change-1024x318.png width="500"></p>
 
 
 <p align="center">
-<img src="./ss1.png" alt="Suni" class="center">
+<img src="./chart.jpg" alt="Suni" class="center">
 </p>
 
 

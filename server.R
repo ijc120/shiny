@@ -45,8 +45,8 @@ shinyServer(function(input,output, session){
                      options=list(width= 800,height= 500,
                                   title="Correlation between the two measures",
                                   legend="{position:'none'}",
-                                  hAxis="{title:'Measure 1'}",
-                                  vAxis="{title:'Measure 2'}",
+                                  hAxis="{title:'Behavior Factors'}",
+                                  vAxis="{title:'Outcome'}",
                                   colorAxis="{colors:['#91BFDB', '#FC8D59']}"))
   })
   
